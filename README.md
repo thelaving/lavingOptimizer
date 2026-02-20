@@ -1,49 +1,44 @@
 <div align="center">
 
-██╗ █████╗ ██╗ ██╗██╗███╗ ██╗ ██████╗
-██║ ██╔══██╗██║ ██║██║████╗ ██║██╔════╝
-██║ ███████║██║ ██║██║██╔██╗ ██║██║ ███╗
-██║ ██╔══██║╚██╗ ██╔╝██║██║╚██╗██║██║ ██║
-███████╗██║ ██║ ╚████╔╝ ██║██║ ╚████║╚██████╔╝
-╚══════╝╚═╝ ╚═╝ ╚═══╝ ╚═╝╚═╝ ╚═══╝ ╚═════╝
-  
-# ⚡ Laving Ultimate Gaming Optimizer v2.0
+$$\        $$$$$$\  $$\    $$\ $$$$$$\ $$\   $$\  $$$$$$\  
+$$ |      $$  __$$\ $$ |   $$ |\_$$  _|$$$\  $$ |$$  __$$\ 
+$$ |      $$ /  $$ |$$ |   $$ |  $$ |  $$$$\ $$ |$$ /  \__|
+$$ |      $$$$$$$$ |\$$\  $$  |  $$ |  $$ $$\$$ |$$ |$$$$\ 
+$$ |      $$  __$$ | \$$\$$  /   $$ |  $$ \$$$$ |$$ |\_$$ |
+$$ |      $$ |  $$ |  \$$$  /    $$ |  $$ |\$$$ |$$ |  $$ |
+$$$$$$$$\ $$ |  $$ |   \$  /   $$$$$$\ $$ | \$$ |\$$$$$$  |
+\________|\__|  \__|    \_/    \______|\__|  \__| \______/ 
+                                                           
+                                                          
+                                                           
+# ⚡ LavingOptimizer
 
-**Windows 10/11 için Hepsi Bir Arada Oyun Performansı Optimizasyon Aracı**
+Windows sistemler için geliştirilmiş kapsamlı bir optimizasyon aracıdır. Kayıt defteri düzenlemeleri, ağ optimizasyonu, güç yönetimi, gizlilik ayarları ve daha fazlasını tek bir arayüzden yönetmenizi sağlar.
 
-[![Windows 10](https://img.shields.io/badge/Windows%2010-1903--22H2-blue?logo=windows)](https://www.microsoft.com/windows)
-[![Windows 11](https://img.shields.io/badge/Windows%2011-21H2--24H2-blue?logo=windows11)](https://www.microsoft.com/windows)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Batch](https://img.shields.io/badge/Language-Batch-yellow.svg)]()
-[![Stars](https://img.shields.io/github/stars/kullaniciadi/laving-optimizer?style=social)]()
-
-[🚀 İndir](#kurulum) • [📖 Kullanım](#kullanım) • [🛡️ Güvenlik](#güvenlik) • [📸 Ekran Görüntüleri](#ekran-görüntüleri)
-
-</div>
+![Platform](https://img.shields.io/badge/Platform-Windows-blue)
+![Language](https://img.shields.io/badge/Language-C%23-239120)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
-## 🎯 Nedir?
+## 🚀 Özellikler
 
-**Laving Optimizer**, tek bir `.bat` dosyasından çalışan, harici yazılım gerektirmeyen, kapsamlı bir Windows oyun performansı optimizasyon aracıdır. CPU zamanlamasından ağ ping'ine, input lag'dan gizlilik ayarlarına kadar **11 farklı kategoriyi** tek seferde optimize eder.
+- **🔧 Kayıt Defteri Optimizasyonu** — Gereksiz kayıt defteri ayarlarını düzenleyerek sistem performansını artırır
+- **🌐 Ağ Optimizasyonu** — DNS, TCP/IP ve ağ ayarlarını optimize eder, ping ve gecikmeyi düşürür
+- **⚡ Güç Yönetimi** — Güç planı ayarlarını maksimum performans için yapılandırır
+- **🛡️ Gizlilik Ayarları** — Windows telemetri ve veri toplama servislerini yönetir
+- **🧹 Sistem Temizliği** — Geçici dosyalar ve gereksiz verileri temizler
+- **🖥️ Kullanıcı Dostu Arayüz** — Tüm optimizasyonları tek bir panel üzerinden kontrol edin
 
-## ✨ Özellikler
+---
 
-| Modül | Açıklama |
-|-------|----------|
-| 🔧 **CPU & Zamanlayıcı** | MMCSS, Quantum, Core Parking, MSI Mode, Timer Resolution |
-| 🎮 **GPU & Görüntü** | HAGS, Game DVR, DWM VSync Bypass, TDR, Frame Latency |
-| 🌐 **Ağ & Ping** | TCP/IP Stack, Nagle Off, DNS, NIC Tuning, Throttling |
-| 💾 **RAM & Bellek** | Memory Management, Prefetch/Superfetch, NTFS |
-| 🖱️ **Input Lag** | Mouse Acceleration Off, Klavye Hızı, USB Power |
-| ⚙️ **Servisler** | 23+ gereksiz servis, zamanlanmış görevler |
-| 🎨 **Görsel Efektler** | Animasyonlar, Cortana, Arka Plan Uygulamaları |
-| 💿 **Disk & Temizlik** | Cache, Temp, SSD TRIM, NTFS Optimizasyonu |
-| ⚡ **Güç Yönetimi** | Ultimate Performance, Hibernate, C-States |
-| 🔒 **Gizlilik** | Telemetri, Reklam ID, Konum, Activity History |
-| 🚀 **Boot & BCD** | Dynamic Tick, HPET, TSC Sync, Boot Timeout |
+## 📥 Kurulum
 
-### 🛡️ Güvenlik Önlemleri
+### Hazır Sürüm
+1. [Releases](https://github.com/thelaving/lavingOptimizer/releases) sayfasından son sürümü indirin
+2. İndirilen dosyayı **yönetici olarak** çalıştırın
 
-- ✅ Çalışmadan önce **otomatik Sistem Geri Yükleme Noktası** oluşturur
-- ✅ Her değişiklik öncesi **mevcut 
+### Kaynak Koddan Derleme
+```bash
+git clone https://github.com/thelaving/lavingOptimizer.git
+cd lavingOptimizer
