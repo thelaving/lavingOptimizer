@@ -1,5 +1,3 @@
-
-
 $$\        $$$$$$\  $$\    $$\ $$$$$$\ $$\   $$\  $$$$$$\  
 $$ |      $$  __$$\ $$ |   $$ |\_$$  _|$$$\  $$ |$$  __$$\ 
 $$ |      $$ /  $$ |$$ |   $$ |  $$ |  $$$$\ $$ |$$ /  \__|
@@ -9,8 +7,7 @@ $$ |      $$ |  $$ |  \$$$  /    $$ |  $$ |\$$$ |$$ |  $$ |
 $$$$$$$$\ $$ |  $$ |   \$  /   $$$$$$\ $$ | \$$ |\$$$$$$  |
 \________|\__|  \__|    \_/    \______|\__|  \__| \______/ 
                                                            
-                                                          
-<div align="center">                                                           
+                                                                             
 # ⚡ LavingOptimizer
 
 Windows sistemler için geliştirilmiş kapsamlı bir optimizasyon aracıdır. Kayıt defteri düzenlemeleri, ağ optimizasyonu, güç yönetimi, gizlilik ayarları ve daha fazlasını tek bir arayüzden yönetmenizi sağlar.
